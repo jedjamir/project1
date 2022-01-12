@@ -1,0 +1,164 @@
+body {
+
+}
+
+#title {
+  background-color:#ff4c68;
+  color:#fff;
+
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:3.5rem;
+  line-height:1.5;
+}
+
+.container-fluid {
+  padding:3% 15% 7%;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+  padding:0 0 4.5rem;
+}
+.navbar-brand {
+   font-family: 'Ubuntu', sans-serif;
+   font-size:2.5rem;
+   font-weight:bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family:'Montserrat';
+  font-size: 1.2rem;
+
+}
+
+
+/* DOWNLOAD BUTTONS */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGE */
+.title-image {
+  width:55%;
+  transform: rotate(25deg);
+  position:absolute;
+  right:30%;
+}
+.relativity {
+  position:relative;
+}
+
+/* FEATURES SECTION */
+
+#features {
+  background-color:#fff;
+  padding: 7% 10%;
+  text-align:center;
+  position:relative;
+
+}
+h3 {
+  font-size:1.5rem;
+  font-family:'Montserrat';
+}
+.icon-pink {
+  color:#ef8172;
+
+  margin-bottom:1rem;
+
+}
+.features-text {
+  color:#8f8f8f;
+  font-family: verdana;
+}
+.icon-pink:hover {
+  color:#ff4c68;
+}
+
+
+
+/* TESTIMONIAL SECTION */
+
+#testimonials {
+  text-align:center;
+  background-color:#ef8172;
+  color:#fff;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size:3rem;
+  line-height:1.5;
+}
+
+.testimonial-image {
+  width:10%;
+  border-radius:100%;
+  margin: 20px;
+}
+#press {
+  background-color:#ef8172;
+  text-align:center;
+  padding-bottom:3%;
+}
+.press-logo {
+  width:15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding:7% 15%;
+
+}
+
+
+/* PRICING SECTION */
+#pricing {
+  padding:100px;
+  text-align:center;
+}
+.width-size {
+  width:70%;
+}
+.pricing-column {
+  padding:3% 2%;
+}
+@media (max-width:991px) {
+  .title-image {
+    position:static;
+    transform: rotate(0);
+
+  }
+  #title {
+    text-align:center;
+  }
+}
+
+/* CTA SECTION */
+#cta {
+  padding: 4% 15%;
+  background-color:#ff4c68;
+  text-align:center;
+}
+.cta-info {
+
+  font-family: 'Montserrat';
+  font-size:3.5rem;
+  line-height:1.5;
+  color:#fff;
+}
+
+/* FOOTER SECTION */
+#footer {
+  text-align:center;
+  padding:5% 15%;
+}
+.space {
+    margin: 20px 15px;
+}
+/* font-family: 'Ubuntu', sans-serif; */
